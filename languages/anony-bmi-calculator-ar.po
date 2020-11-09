@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: Anony BMI calculator\n"
+"POT-Creation-Date: 2020-11-09 17:27+0200\n"
+"PO-Revision-Date: 2020-11-09 17:31+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bmi.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions/scripts.php:67
+msgid "Slim"
+msgstr "نحيف"
+
+#: functions/scripts.php:68
+msgid "Normal"
+msgstr "طبيعي"
+
+#: functions/scripts.php:69
+msgid "Over weight"
+msgstr "وزن زائد"
+
+#: functions/scripts.php:70
+msgid "Obese"
+msgstr "سمنة مفرطة"
+
+#: templates/form.php:6
+msgid "Your gender?"
+msgstr "ما هو جنسك؟"
+
+#: templates/form.php:7
+msgid "Male"
+msgstr "ذكر"
+
+#: templates/form.php:8
+msgid "Female"
+msgstr "أنثى"
+
+#: templates/form.php:12
+msgid "Your age?"
+msgstr "ماهو عمرك؟"
+
+#: templates/form.php:18
+msgid "Your height?"
+msgstr "ماهو طولك؟"
+
+#: templates/form.php:19
+msgid "170 cm"
+msgstr "170 سم"
+
+#: templates/form.php:24
+msgid "Your weight?"
+msgstr "ماهو وزنك؟"
+
+#: templates/form.php:25
+msgid "60 kg"
+msgstr "60 كجم"
+
+#: templates/form.php:29
+msgid "Calculate BMI"
+msgstr "حساب كتلة الجسم BMI"
+
+#: templates/form.php:49
+msgid "Your BMI"
+msgstr "كتلة جسمك BMI"
+
+#: templates/form.php:54
+msgid "Body status"
+msgstr "حالة الجسم"
+
+#: templates/form.php:58
+msgid "Your normal weight"
+msgstr "وزنك الطبيعي هو"
+
+#: templates/form.php:62
+msgid "Your optimal weight"
+msgstr "وزنك المثالي هو"
+
+#. Plugin Name of the plugin/theme
+msgid "Anony BMI calculator"
+msgstr "حاسبة كتلة الجسم"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://makiomar.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Calculate persons BMI dpending on gender, height and weight"
+msgstr "حساب كتلة الجسم اعتماداً على الجنس، الطول والوزن"
+
+#. Author of the plugin/theme
+msgid "Makiomar"
+msgstr "ماكيومار"

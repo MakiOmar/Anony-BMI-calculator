@@ -1,0 +1,13 @@
+#bmi-result-bar .step {
+    border-left: 1px solid #fff;
+	border-right: none;
+}
+#bmi-result-bar .step:last-child{
+	border-left: none;
+}
+#bmi-result-pointer{
+    right: -25px;
+    font-size: 14px;
+    line-height: 24px;
+    left: auto;
+}
