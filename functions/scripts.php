@@ -40,7 +40,10 @@ function abmi_styles(){
 }
 
 function abmi_scripts(){	
-	$scripts = array('bmi' => 'bmi');
+	$scripts = array(
+		'bmi' => 'bmi',
+		'pregnancy' => 'pregnancy',
+	);
 	
 	$libs_scripts = [];
 	
@@ -50,7 +53,7 @@ function abmi_scripts(){
 		
 		$handle = in_array($script, $libs_scripts) ? $script : 'abmi_' . $script;
 		
-		wp_enqueue_script( 
+		wp_register_script( 
 			$handle , 
 			ABMI_URI . 'assets/js/'.$file_name.'.js' ,
 			['jquery'],
@@ -76,20 +79,8 @@ function abmi_scripts(){
 //Theme Scripts
 add_action('wp_enqueue_scripts',function() {
 	
-	if(is_single() || is_page()){
-		
-		global $post;
-		
-		if ($post instanceof WP_Post ) {
-	        setup_postdata($post);
-	        $content = get_the_content();
-	        if (has_shortcode(  $content, 'anony-bmi-calculator' )){
-	        	abmi_styles();
-				abmi_scripts();
-	        }
-	    }
-		
-	}
+	abmi_styles();
+	abmi_scripts();
 	
 
 });
