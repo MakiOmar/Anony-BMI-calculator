@@ -1,6 +1,6 @@
 <?php if ( !defined('ABSPATH') ) exit();?>
 
-<form action="" method="get">
+<form action="" method="get" class="anony-bmi-form">
 	
 	<div class="anony-bmi-field">
 		<label for="form-field-bmi_age"><?= esc_html__( 'Your gender?', ABMI_DOMAIN ) ?></label>

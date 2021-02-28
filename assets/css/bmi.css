@@ -1,4 +1,6 @@
-
+.anony-bmi-form{
+	text-align: center;
+}
 #bmi-pointer-container{
 	position: relative;
 	display: inline-block
