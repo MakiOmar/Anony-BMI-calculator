@@ -21,6 +21,7 @@ define('ABMI_URI', plugin_dir_url( __FILE__ ));
 
 require_once(ABMI_DIR . 'functions/scripts.php');
 require_once(ABMI_DIR . 'functions/bmi-calculator.php');
+require_once(ABMI_DIR . 'functions/pregnancy-calculator.php');
 
 add_action( 'init', function(){
 	load_plugin_textdomain(ABMI_DOMAIN , false,  dirname( plugin_basename( __FILE__ ) ) . '/languages');
